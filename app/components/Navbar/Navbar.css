@@ -1,0 +1,56 @@
+.navigation {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	text-align:center;
+	color: black;
+	padding: 10px;
+	background-color: var(--dark-bg);
+	/* border-bottom: 1px solid darkblue; */
+}
+
+.navigation-brand > a > i {
+	margin: 0;
+	color: #C0C0C0;
+	font-size:15px;
+	margin-left: 20px;
+	padding:5px;
+}
+
+.navigation-brand > i {
+	margin: 0;
+	color: #C0C0C0;
+	font-size:15px;
+	margin-left: 20px;
+	cursor: pointer;
+	padding:5px;
+}
+
+.navigation-brand > a > i:hover {
+	color: white;
+}
+
+.navigation-brand > i:hover {
+	color: white;
+
+}
+
+.navigation-brand > p {
+	margin: 0;
+}
+
+.navigation-center {
+	flex-grow: 2;
+}
+
+.navigation-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.profile-button {
+	margin-right:10px;
+}

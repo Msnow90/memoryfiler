@@ -1,0 +1,45 @@
+.login-container {
+	padding: 30px;
+	text-align: center;
+	background-color: rgba(64,64,64, 0.9);
+	color: white;
+}
+
+.login-container > i {
+	font-size: 40px;
+	background-color: rgba(64,64,64, 0.3);
+	
+}
+
+.login-container  .input-group-text {
+	background-color: rgba(64,64,64, 0.3);
+	color: white;
+}
+
+.login-container .form-control {
+	background-color: rgba(64,64,64, 0.3);
+	color: white;
+
+}
+
+.button-container {
+	margin: 10px auto;
+	text-align: center;
+}
+
+.button-container > button {
+	width:80%;
+}
+
+.col-auto {
+	margin: 30px auto;
+}
+
+#login-submit {
+	max-width: 200px;
+}
+
+.loginError {
+	color: red;
+	font-size: 12px;
+}

@@ -1,0 +1,44 @@
+.hidden-form {
+	display:none;
+}
+
+.jumbotron {
+	margin-bottom: 0;
+}
+
+.building-gif {
+	position: relative;
+	background: url('/static/assets/build.gif') center center no-repeat;
+	min-height: 500px;
+	background-size: cover;
+}
+.building-gif:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right,#536dfe,black);
+	opacity: .8; 
+}
+
+.white-text {
+	color: white;
+	position: absolute;
+}
+
+#beta-signup-form > div > input {
+	display: inline-block;
+	width: 60%;
+}
+
+#beta-signup-form > div > button {
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+.landing-page-container {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}

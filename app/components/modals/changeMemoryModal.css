@@ -1,0 +1,5 @@
+#changeMemoryModal select {
+    background-color: var(--dark-bg);
+    color: white;
+    min-width: 300px;
+}

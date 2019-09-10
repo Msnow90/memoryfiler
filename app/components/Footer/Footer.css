@@ -1,0 +1,40 @@
+.footer-container {
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+
+.float-right {
+	float:right;
+}
+
+.footer-container > div > div > p {
+	margin: 0;
+}
+
+.footer-container > div > div > a > i {
+	font-size:24px;
+	margin-right:20px;
+}
+
+.fa-envelope {
+	color: white;
+}
+
+.fa-twitter-square {
+	color: #4AB3F4;
+}
+
+.fa-instagram {
+	color: pink;
+}
+
+.fa-youtube {
+	color: #FF0000;
+}
+
+.fa-facebook-square {
+	color: #4267b2;
+}

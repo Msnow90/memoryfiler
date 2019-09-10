@@ -1,0 +1,136 @@
+:root {
+	/* --dark-theme-1: #f7f4f3;
+	--dark-theme-2: #f24333;
+	--dark-theme-3: #ba1b1d;
+	--dark-theme-4: #5b2333;
+	--dark-theme-5: #564d4a;
+
+	--light-theme-1: #a0dde6;
+	--light-theme-2: #80c2af;
+	--light-theme-3: #5c946e;
+	--light-theme-4: #30c5ff;
+	--light-theme-5: #2a2d34;
+
+	--menu-color: #2a2d34;
+	--action-color: #5c946e;
+	--button-color: #80c2af;
+	--light-bg: #a0dde6;
+	--dark-bg: #30c5ff;
+	--navbar-color: #f7f4f3; */
+
+
+	/* --primary: #607d8b;
+	--menu: #607d8b;
+
+	--primary-hue-1: #90a4ae;
+
+	--primary-hue-2: #37474f;
+
+	--primary-hue-3: #cfd8dc;
+	--bg: #cfd8dc;
+
+	--text: #607d8b; */
+
+	--action: #536dfe;
+	--deep-action: #4b0082;  
+	--none-action: #bda2d1;
+
+
+
+	/* Various User Themes */
+	--current-bg: var(--black-bg);
+	--current-text: var(--black-text);
+	--current-body: var(--white-bg);
+
+	--darker-bg: #2b2b2b;
+	--dark-bg: #404040;
+
+	--black-bg: black;
+	--black-text: white;
+
+	--indigo-bg: #536dfe;
+	--indigo-text: white;
+
+	--white-bg: white;
+	--white-text: black;
+
+	--darkred-bg: #7F4145;
+	--darkred-text: white;
+
+	--red-bg: #BD3D3A;
+	--red-text: white;
+
+	--blue-bg: #3F69AA;
+	--blue-text: white;
+
+	--yellow-bg: #D5AE41;
+	--yellow-text: black;
+
+	--olive-bg: #766F57;
+	--olive-text:white;
+
+	--orange-bg: #E47A2E;
+	--orange-text: white;
+
+	--darkgreen-bg: #006E6D;
+	--darkgreen-text: white;
+
+	--sea-bg: #485167;
+	--sea-text: white;
+
+	--tofu-bg: #EAE6DA;
+	--tofu-text: black;
+
+	--almond-bg: #D1B894;
+	--almond-text: black;
+
+	--grey-bg: #BCBCBE;
+	--grey-text: black;
+
+	--brown-bg: #A9754F;
+	--brown-text: black;
+
+	--pink-bg: #BC70A4;
+	--pink-text: white;
+
+	
+}
+
+body {
+	background-color: var(--current-body);
+	/* overflow-x: hidden; */
+	--memory-image-height:500;
+}
+
+.alert.alert-info {
+	margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, label, a {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	/* color: var(--text); */
+}
+
+.none-action-btn {
+	border-color: var(--none-action);
+	color: var(--none-action);
+	background-color: transparent;
+}
+
+.none-action-btn:hover {
+	background-color: var(--none-action);
+	color: white;
+}
+
+.action-btn {
+	border-color: var(--action);
+	color: var(--white);
+	background-color: var(--action);
+	margin:0 10px;
+}
+
+.action-btn:hover {
+	background-color: var(--deep-action);
+	color: white;
+	border-color: var(--action);
+}

@@ -1,0 +1,139 @@
+#memfilershort {
+    width: 100%;
+    height: 500px;
+}
+
+.content-bg {
+    background-color: var(--dark-bg);
+}
+
+.row-1 {
+    text-align: center;
+    padding-top: 30px;
+    background: linear-gradient(to right bottom, var(--dark-bg) 80%, #bda2d1);
+}
+
+.row-1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row-1 .column-2 {
+    padding-top: 20px;
+}
+
+.row-1 .column-1 h3 {
+    margin: 30px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #C0C0C0;
+}
+
+.row-1 .column-1 p {
+    font-size: 20px;
+    color: #C0C0C0;
+}
+
+.row-1 .column-1 button {
+    margin-top: 30px;
+}
+
+.row-2 {
+    background: linear-gradient(to right bottom, white 80%, #bda2d1);
+}
+
+.row-2 .column-2 {
+    padding-top: 75px;
+}
+
+.row-1 .column-1 ul {
+    text-align: left;
+}
+
+.row-1 .column-1 li {
+    margin: 30px;
+    font-size: 20px;
+}
+
+.landing-white-logo-bg {
+    height: 500px;
+}
+
+.landing-white-logo-bg .relative-container {
+    position: relative;
+    min-height: 500px;
+}
+
+.landing-white-logo-bg .relative-container img {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+
+.landing-white-logo-bg .relative-container .whiteoverlay {
+    background: linear-gradient(to right top, rgba(255,255,255,0.8) 60%, rgba(255,255,255,0.9));
+    z-index: 2;
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+}
+
+.landing-steps-ol {
+    padding-left: 20%;
+    margin-top: 70px;
+    z-index:3;
+}
+
+.landing-steps-ol h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.landing-steps-ol li {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.simple-phrase {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.simple-phrase + p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.row-3 {
+    padding-top: 150px;
+    background: linear-gradient(to right top, var(--dark-bg) 80%, #bda2d1);
+}
+
+.row-3 h3 {
+    color: #C0C0C0;
+}
+
+.row-3 p {
+    color: #C0C0C0;
+}
+
+.row-3 .col-md-4 {
+    padding-right: 20px;
+}
+
+.row-3 .col-md-6 {
+    text-align: right;
+}
+
+@media screen and (max-width: 800px) {
+    #landing-video {
+        display: none;
+    }
+
+    .row-3 {
+        height: 1000px;
+    }
+}

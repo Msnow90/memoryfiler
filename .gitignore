@@ -1,0 +1,10 @@
+node_modules/
+package-lock.json
+public/
+versions/
+asset_stuff/
+config.js
+./config.js
+config/
+verions/
+node_modules/
